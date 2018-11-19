@@ -1,8 +1,8 @@
 # Universidade Anhembi Morumbi
-## Sistemas de Informação
+Sistemas de Informação
 Projeto Sistema de Registro de Receitas Médicas - MedFast (trabalho acadêmico)
 
-Descrição:
+## Descrição
  
 O sistema gera uma prescrição/receita médica digital com CRM do profissional de saúde que a gerar. O sistema irá ajudar a evitar fraudes e aumentará o controle de receitas geradas promovendo novos dados para melhoria da saúde no país.
 
