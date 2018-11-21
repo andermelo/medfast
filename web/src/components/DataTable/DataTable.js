@@ -1,6 +1,8 @@
 import React from 'react';
 import {Button, Table, TableBody, TableCell, TableHead, TableRow, Typography} from "material-ui";
 import FirebaseService from "../../services/FirebaseService";
+import {Link} from "react-router-dom";
+import {privateUrls} from "../../utils/urlUtils";
 
 export const DataTable = ({data}) => {
     const remove = (id) => {
@@ -21,14 +23,16 @@ export const DataTable = ({data}) => {
                 {
                     data.map((item, index) =>
                         <TableRow key={index}>
-                            <TableCell>{item.medico}</TableCell>
                             <TableCell>{item.CRM}</TableCell>
                             <TableCell>{item.nome}</TableCell>
                             <TableCell>{item.especialidades}</TableCell>
                             <TableCell>
                                 <Button
-                                   onClick={() => remove(item.key)}>
-                                    Remove
+                                   onClick={() => remove(item.medico)}>
+                                    Remover
+                                </Button>
+                                <Button component={props =><Link to={privateUrls.edit.pathWithouParam + item.medico} {...props}/>}>
+                                    Editar
                                 </Button>
                             </TableCell>
                         </TableRow>

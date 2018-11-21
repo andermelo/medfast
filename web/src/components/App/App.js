@@ -46,14 +46,12 @@ class App extends Component {
 
                             <Route exact
                                 path={urls.data.path}
-                                render={(props) => 
-                                    <DataTable {...props} data={this.state.data}/>}
+                                render={(props) => <DataTable {...props} data={this.state.data}/>}
                             />
 
                             <Route exact
                                 path={urls.add.path}
-                                render={(props) => 
-                                            <Add {...props}/>}
+                                render={(props) => <Add {...props}/>}
                             />
 
                             <Route exact
