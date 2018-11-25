@@ -49,7 +49,7 @@ class Add extends Component {
 
     render = () => (<React.Fragment>
 
-        <Typography variant="headline" component="h2">Adicionar novo Médico</Typography>
+        <Typography variant="headline" component="h2">Dados do Médico</Typography>
         <form onSubmit={this.submit}>
 
             <TextField className="input-field"
@@ -77,7 +77,7 @@ class Add extends Component {
 
             <Button type="submit"
                     style={{marginTop: '20px', display: 'inline-block'}}>
-                Adicionar
+                Salvar
             </Button>
         </form>
     </React.Fragment>)
