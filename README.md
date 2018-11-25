@@ -16,4 +16,7 @@ O paciente recebe a receita médica apenas para visualização e confirmação d
  
 O sistema guardará, além dos dados do médico, paciente e farmácia, as transações realizadas entre as 3 entidades, histórico de atendimentos, medicamentos utilizados, unidade de farmácia mais procurada e gerará relatórios.
 
+## Links
+
+- [Painel de Cadastro dos Médicos](https://medfast-223122.firebaseapp.com)
 
