@@ -31,6 +31,7 @@ import com.medfest.android.medfestapp.common.EMAIL_REGEX
 import com.medfest.android.medfestapp.common.onClick
 import com.medfest.android.medfestapp.common.onTextChanged
 import com.medfest.android.medfestapp.registerPresenter
+import com.medfest.android.medfestapp.ui.main.MainActivity
 import kotlinx.android.synthetic.main.activity_register.*
 import java.util.regex.Pattern
 
