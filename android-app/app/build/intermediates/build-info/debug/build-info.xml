@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
+<<<<<<< HEAD
     abi="x86_64,x86"
     api-level="23"
     build-mode="COLD"
@@ -9,6 +10,17 @@
     timestamp="1543273675718"
     token="3902829334296410977"
     verifier="COLD_SWAP_REQUESTED" >
+=======
+    abi="x86"
+    api-level="28"
+    build-mode="FULL"
+    density="420dpi"
+    format="10"
+    plugin-version="3.2.1"
+    timestamp="1543355719594"
+    token="3902829334296410977"
+    verifier="FULL_BUILD_REQUESTED" >
+>>>>>>> origin/master
 
     <task
         name="javac"
@@ -24,6 +36,7 @@
         duration="0" />
 
     <artifact
+<<<<<<< HEAD
         location="C:\Users\ander\Downloads\medfast\android-app\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
         type="SPLIT_MAIN" />
 
@@ -75,6 +88,156 @@
         <artifact
             location="C:\Users\ander\Downloads\medfast\android-app\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
+=======
+        location="/home/anderson/Downloads/medfast/android-app/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+        type="SPLIT_MAIN" />
+    <artifact
+        location="/home/anderson/Downloads/medfast/android-app/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/anderson/Downloads/medfast/android-app/C:\Users\ander\Downloads\medfast\android-app\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/anderson/Downloads/medfast/android-app/C:\Users\ander\Downloads\medfast\android-app\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/anderson/Downloads/medfast/android-app/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/anderson/Downloads/medfast/android-app/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/anderson/Downloads/medfast/android-app/C:\Users\ander\Downloads\medfast\android-app\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/anderson/Downloads/medfast/android-app/C:\Users\ander\Downloads\medfast\android-app\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/anderson/Downloads/medfast/android-app/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/anderson/Downloads/medfast/android-app/C:\Users\ander\Downloads\medfast\android-app\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/anderson/Downloads/medfast/android-app/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/anderson/Downloads/medfast/android-app/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/anderson/Downloads/medfast/android-app/C:\Users\ander\Downloads\medfast\android-app\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/anderson/Downloads/medfast/android-app/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/anderson/Downloads/medfast/android-app/C:\Users\ander\Downloads\medfast\android-app\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/anderson/Downloads/medfast/android-app/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/anderson/Downloads/medfast/android-app/C:\Users\ander\Downloads\medfast\android-app\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/anderson/Downloads/medfast/android-app/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/anderson/Downloads/medfast/android-app/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/anderson/Downloads/medfast/android-app/C:\Users\ander\Downloads\medfast\android-app\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/anderson/Downloads/medfast/android-app/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/anderson/Downloads/medfast/android-app/C:\Users\ander\Downloads\medfast\android-app\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/anderson/Downloads/medfast/android-app/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/anderson/Downloads/medfast/android-app/C:\Users\ander\Downloads\medfast\android-app\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+
+    <build
+        build-mode="FULL"
+        timestamp="1543355719594"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/home/anderson/Downloads/medfast/android-app/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
+        <artifact
+            location="/home/anderson/Downloads/medfast/android-app/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/anderson/Downloads/medfast/android-app/C:\Users\ander\Downloads\medfast\android-app\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/anderson/Downloads/medfast/android-app/C:\Users\ander\Downloads\medfast\android-app\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/anderson/Downloads/medfast/android-app/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/anderson/Downloads/medfast/android-app/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/anderson/Downloads/medfast/android-app/C:\Users\ander\Downloads\medfast\android-app\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/anderson/Downloads/medfast/android-app/C:\Users\ander\Downloads\medfast\android-app\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/anderson/Downloads/medfast/android-app/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/anderson/Downloads/medfast/android-app/C:\Users\ander\Downloads\medfast\android-app\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/anderson/Downloads/medfast/android-app/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/anderson/Downloads/medfast/android-app/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/anderson/Downloads/medfast/android-app/C:\Users\ander\Downloads\medfast\android-app\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/anderson/Downloads/medfast/android-app/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/anderson/Downloads/medfast/android-app/C:\Users\ander\Downloads\medfast\android-app\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/anderson/Downloads/medfast/android-app/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/anderson/Downloads/medfast/android-app/C:\Users\ander\Downloads\medfast\android-app\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/anderson/Downloads/medfast/android-app/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/anderson/Downloads/medfast/android-app/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/anderson/Downloads/medfast/android-app/C:\Users\ander\Downloads\medfast\android-app\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/anderson/Downloads/medfast/android-app/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/anderson/Downloads/medfast/android-app/C:\Users\ander\Downloads\medfast\android-app\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/anderson/Downloads/medfast/android-app/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/anderson/Downloads/medfast/android-app/C:\Users\ander\Downloads\medfast\android-app\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+>>>>>>> origin/master
     </build>
 
 </instant-run>

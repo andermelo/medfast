@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ander\\Downloads\\medfast\\android-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "/home/anderson/Downloads/medfast/android-app/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ander\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\ffc6e24ae858e5b53fa2d4fc628bdb18\\res\\values-v24\\values-v24.xml",
+                    "source": "/home/anderson/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/6f6ad5c5a498ec533931dea19a961359/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ander\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\d316fc941732020fd8ab616d03c4927b\\res\\values-v24\\values-v24.xml",
+                    "source": "/home/anderson/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/301d7f38434d59fbbee49f5259e0f6cf/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
