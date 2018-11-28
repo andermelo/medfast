@@ -29,12 +29,18 @@ android {
 ext {
     supportLib = "27.1.1"
     dagger = "2.12"
+    playServices = "16.0.4"
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+
+    implementation "com.google.firebase:firebase-core:$playServices"
+    implementation "com.google.firebase:firebase-auth:$playServices"
+    implementation "com.google.firebase:firebase-database:16.0.3"
+    implementation "com.google.firebase:firebase-storage:16.0.3"
 
     //support lib
     implementation "com.android.support:appcompat-v7:$supportLib"
@@ -46,3 +52,5 @@ dependencies {
     implementation "com.google.dagger:dagger:$dagger"
     kapt "com.google.dagger:dagger-compiler:$dagger"
 }
+
+apply plugin: 'com.google.gms.google-services'
