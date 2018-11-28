@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ander\\Downloads\\medfast\\android-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
+            "outputFile": "/home/anderson/Downloads/medfast/android-app/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ander\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\d316fc941732020fd8ab616d03c4927b\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "source": "/home/anderson/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/301d7f38434d59fbbee49f5259e0f6cf/res/values-en-rAU/values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ander\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\8772bf7961e56a06bb268b645807130c\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "source": "/home/anderson/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/5c7453373890267067ba47b329407bbc/res/values-en-rAU/values-en-rAU.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

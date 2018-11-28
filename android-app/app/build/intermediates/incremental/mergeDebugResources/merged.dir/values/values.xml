@@ -783,11 +783,11 @@
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
-    <string name="email_empty_error">Email is empty</string>
-    <string name="email_error">Invalid email</string>
+    <string name="email_empty_error">Erro no E-mail</string>
+    <string name="email_error">E-mail invalido</string>
     <string name="email_hint">E-mail</string>
-    <string name="email_text">User email: %s</string>
-    <string name="error_message">Something went wrong! Please try again.</string>
+    <string name="email_text">E-mail: %s</string>
+    <string name="error_message">Algo deu errado, tente novamente :[</string>
     <string name="error_title">Oops</string>
     <string name="favorite_jokes_title">Favorite jokes</string>
     <string name="general_positive_button">OK</string>
@@ -795,24 +795,24 @@
     <string name="joke_hint">Enter your joke</string>
     <string name="log_in_button">Login</string>
     <string name="log_out_button">Sair</string>
-    <string name="my_profile_title">My profile</string>
-    <string name="no_items_text">There seems to be no items :[</string>
+    <string name="my_profile_title">Perfil</string>
+    <string name="no_items_text">Sem nenhum item :[</string>
     <string name="number_of_jokes_text">Number of favorite jokes: %d</string>
-    <string name="password_error">Password must have  at least 6 characters</string>
-    <string name="password_hint">Password</string>
+    <string name="password_error">Senha deve ter no minimo 6 caracteres</string>
+    <string name="password_hint">Senha</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="register_button">Se Cadastrar</string>
-    <string name="repeat_password_error">Passwords do not match</string>
-    <string name="repeat_password_hint">Repeat password</string>
+    <string name="repeat_password_error">Senhas digitada é diferente</string>
+    <string name="repeat_password_hint">Repetir senha</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="username_error">Username needs to be at least 6 characters</string>
-    <string name="username_hint">Username</string>
-    <string name="username_text">Username: %s</string>
+    <string name="username_error">Usuário deve ter no mínimo 6 caracteres</string>
+    <string name="username_hint">Usuário</string>
+    <string name="username_text">Usuário: %s</string>
     <string name="welcome_description">Aqui você pode acessar todas as receitas e buscar farmácias parceiras mais perto de você :]</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

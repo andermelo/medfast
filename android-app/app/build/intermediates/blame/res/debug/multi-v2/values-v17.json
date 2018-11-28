@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ander\\Downloads\\medfast\\android-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
+            "outputFile": "/home/anderson/Downloads/medfast/android-app/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ander\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\d316fc941732020fd8ab616d03c4927b\\res\\values-v17\\values-v17.xml",
+                    "source": "/home/anderson/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/301d7f38434d59fbbee49f5259e0f6cf/res/values-v17/values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,26,29,32,35,39,42,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
