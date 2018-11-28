@@ -1,4 +1,0 @@
-#Mon Nov 26 20:50:51 BRST 2018
-base.0=C\:\\Users\\ander\\Downloads\\medfast\\android-app\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
-path.0=classes.dex
-renamed.0=classes.dex
