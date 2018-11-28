@@ -4,11 +4,11 @@
   <string name="email_error">E-mail invalido</string>
   <string name="email_hint">E-mail</string>
   <string name="password_hint">Senha</string>
-  <string name="username_hint">Usuário</string>
+  <string name="username_hint">Nome</string>
   <string name="register_button">Se Cadastrar</string>
   <string name="repeat_password_hint">Repetir senha</string>
-  <string name="username_error">Usuário deve ter no mínimo 6 caracteres</string>
-  <string name="repeat_password_error">Senhas digitada é diferente</string>
+  <string name="username_error">Nome deve ter no mínimo 6 caracteres</string>
+  <string name="repeat_password_error">Senha digitada é diferente</string>
   <string name="log_in_button">Login</string>
   <string name="all_jokes_title">All jokes</string>
   <string name="favorite_jokes_title">Favorite jokes</string>
