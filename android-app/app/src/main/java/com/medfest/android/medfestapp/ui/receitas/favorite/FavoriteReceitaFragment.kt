@@ -10,6 +10,7 @@ import com.medfest.android.medfestapp.R
 import com.medfest.android.medfestapp.favoriteReceitasPresenter
 import com.medfest.android.medfestapp.model.Receita
 import com.medfest.android.medfestapp.ui.receitas.favorite.list.FavoriteReceitaAdapter
+import kotlinx.android.synthetic.main.fragment_receitas.*
 
 class FavoriteReceitasFragment : Fragment(), FavoriteView {
 
@@ -18,7 +19,7 @@ class FavoriteReceitasFragment : Fragment(), FavoriteView {
   private val adapter by lazy { FavoriteReceitaAdapter(presenter::onFavoriteButtonTapped) }
 
   override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-    return inflater.inflate(R.layout.fragment_Receitas, container, false)
+    return inflater.inflate(R.layout.fragment_receitas, container, false)
   }
 
   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

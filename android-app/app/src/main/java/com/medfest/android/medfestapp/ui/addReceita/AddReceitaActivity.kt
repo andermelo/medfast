@@ -3,10 +3,12 @@ package com.medfest.android.medfestapp.ui.addReceita
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import com.medfest.android.medfestapp.R
-import com.medfest.android.medfestapp.R.id.*
 import com.medfest.android.medfestapp.addReceitaPresenter
+import com.medfest.android.medfestapp.common.onClick
+import com.medfest.android.medfestapp.common.onTextChanged
 import com.medfest.android.medfestapp.common.showGeneralError
 import kotlinx.android.synthetic.main.activity_add_receita.*
+
 
 class AddReceitaActivity : AppCompatActivity(), AddReceitaView {
 

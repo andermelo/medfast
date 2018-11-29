@@ -44,7 +44,7 @@ class FavoriteReceitaAdapter(
   }
 
   override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ReceitaHolder {
-    val view = LayoutInflater.from(parent.context).inflate(R.layout.receita, parent, false)
+    val view = LayoutInflater.from(parent.context).inflate(R.layout.fragment_receitas, parent, false)
 
     return ReceitaHolder(view, onFavoriteClickHandler)
   }

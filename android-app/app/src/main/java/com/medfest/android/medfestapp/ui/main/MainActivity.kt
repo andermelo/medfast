@@ -5,11 +5,14 @@ import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import com.medfest.android.medfestapp.R
+import com.medfest.android.medfestapp.common.onClick
+import com.medfest.android.medfestapp.common.onPageChange
 import com.medfest.android.medfestapp.ui.addReceita.AddReceitaActivity
 import com.medfest.android.medfestapp.ui.receitas.all.AllReceitasFragment
 import com.medfest.android.medfestapp.ui.receitas.favorite.FavoriteReceitasFragment
 import com.medfest.android.medfestapp.ui.main.pager.MainPagerAdapter
 import com.medfest.android.medfestapp.ui.profile.ProfileFragment
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 

@@ -33,7 +33,7 @@ class ReceitaAdapter(
     holder.displayData(receita)
   }
 
-  fun addReceitas(receita: Receita) {
+  fun addReceita(receita: Receita) {
     items.add(receita)
     notifyItemInserted(items.size - 1)
   }

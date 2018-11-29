@@ -23,7 +23,7 @@ class AllReceitasPresenterImpl @Inject constructor(
     getAllReceitas()
   }
 
-  private fun onFavoriteReceitasResult(favoriteJokes: List<Receita>) = view.setFavoriteReceitasIds(favoriteJokes.map { it.id })
+  private fun onFavoriteReceitasResult(favoriteReceitas: List<Receita>) = view.setFavoriteReceitasIds(favoriteReceitas.map { it.id })
 
   override fun getAllReceitas() = databaseInterface.listenToReceitas { view.addReceita(it) }
 

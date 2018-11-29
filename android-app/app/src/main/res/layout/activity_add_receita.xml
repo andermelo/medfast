@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
   <EditText
-      android:id="@+id/ReceitaDescription"
+      android:id="@+id/receitaDescription"
       android:layout_width="0dp"
       android:layout_height="wrap_content"
       android:layout_margin="16dp"
@@ -23,6 +23,6 @@
       android:text="@string/add_receita_text"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@id/ReceitaDescription"/>
+      app:layout_constraintTop_toBottomOf="@id/receitaDescription"/>
 
 </android.support.constraint.ConstraintLayout>
