@@ -17,7 +17,7 @@
   <string name="number_of_receitas_text">Número de receitas favoritas: %d</string>
   <string name="email_text">E-mail: %s</string>
   <string name="username_text">Usuário: %s</string>
-  <string name="welcome_description">Aqui você pode acessar todas as receitas e buscar farmácias parceiras mais perto de você :]</string>
+  <string name="welcome_description">Aqui você pode acessar todas suas receitas :]</string>
   <string name="no_items_text">Sem nenhum item :[</string>
   <string name="error_title">Oops</string>
   <string name="error_message">Algo deu errado, tente novamente :[</string>
