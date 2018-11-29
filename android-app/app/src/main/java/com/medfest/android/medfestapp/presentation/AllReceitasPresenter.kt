@@ -22,11 +22,14 @@
 
 package com.medfest.android.medfestapp.presentation
 
-import com.medfest.android.medfestapp.ui.addJoke.AddJokeView
+import com.medfest.android.medfestapp.model.Receita
+import com.medfest.android.medfestapp.ui.receitas.all.AllReceitasView
 
-interface AddJokePresenter : BasePresenter<AddJokeView> {
+interface AllReceitasPresenter : BasePresenter<AllReceitasView> {
 
-  fun addJokeTapped()
+  fun viewReady()
 
-  fun onJokeTextChanged(jokeText: String)
+  fun getAllReceitas()
+
+  fun onFavoriteButtonTapped(receita: Receita)
 }

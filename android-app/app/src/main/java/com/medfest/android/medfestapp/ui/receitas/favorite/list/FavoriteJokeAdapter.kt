@@ -20,43 +20,39 @@
  * THE SOFTWARE.
  */
 
-package com.medfest.android.medfestapp.ui.jokes.all.list
+package com.medfest.android.medfestapp.ui.receitas.favorite.list
 
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import com.medfest.android.medfestapp.R
-import com.medfest.android.medfestapp.model.Joke
+import com.medfest.android.medfestapp.model.Receita
+import com.medfest.android.medfestapp.ui.receitas.all.list.ReceitaHolder
 
-class JokeAdapter(
-    private val onFavoriteClickHandler: (Joke) -> Unit
-) : RecyclerView.Adapter<JokeHolder>() {
+class FavoriteReceitaAdapter(
+    private val onFavoriteClickHandler: (Receita) -> Unit
+) : RecyclerView.Adapter<ReceitaHolder>() {
 
-  private val items = mutableListOf<Joke>()
-  private val favoriteJokesIds = mutableListOf<String>()
+  private val items = mutableListOf<Receita>()
 
   override fun getItemCount() = items.size
 
-  fun setFavoriteJokesIds(ids: List<String>) {
-    favoriteJokesIds.clear()
-    favoriteJokesIds.addAll(ids)
+  fun setData(data: List<Receita>) {
+    items.clear()
+    items.addAll(data)
     notifyDataSetChanged()
   }
 
-  override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): JokeHolder {
-    val view = LayoutInflater.from(parent.context).inflate(R.layout.item_joke, parent, false)
+  override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ReceitaHolder {
+    val view = LayoutInflater.from(parent.context).inflate(R.layout.receita, parent, false)
 
-    return JokeHolder(view, onFavoriteClickHandler)
+    return ReceitaHolder(view, onFavoriteClickHandler)
   }
 
-  override fun onBindViewHolder(holder: JokeHolder, position: Int) {
-    val joke = items[position].apply { isFavorite = id in favoriteJokesIds }
+  override fun onBindViewHolder(holder: ReceitaHolder, position: Int) = holder.displayData(items[position])
 
-    holder.displayData(joke)
-  }
-
-  fun addJoke(joke: Joke) {
-    items.add(joke)
-    notifyItemInserted(items.size - 1)
+  fun clear() {
+    items.clear()
+    notifyDataSetChanged()
   }
 }

@@ -12,7 +12,7 @@
       android:layout_height="150dp">
 
     <TextView
-        android:id="@+id/jokeAuthor"
+        android:id="@+id/receitaAuthor"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
@@ -25,7 +25,7 @@
         tools:text="AuthorName"/>
 
     <TextView
-        android:id="@+id/jokeDescription"
+        android:id="@+id/receitaDescription"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="16dp"
@@ -34,7 +34,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/favoriteButton"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/jokeAuthor"
+        app:layout_constraintTop_toBottomOf="@id/receitaAuthor"
         tools:text="To get to the other side To get to the other side To get to the other side To get to the other side To get to the other side To get to the other side To get to the other side To get to the other side To get to the other side To get to the other side"/>
 
     <ImageView

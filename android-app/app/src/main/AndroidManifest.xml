@@ -30,7 +30,7 @@
         android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
 
     <activity
-        android:name=".ui.addJoke.AddJokeActivity"
+        android:name=".ui.addReceita.AddReceitaActivity"
         android:screenOrientation="portrait"
         android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
 

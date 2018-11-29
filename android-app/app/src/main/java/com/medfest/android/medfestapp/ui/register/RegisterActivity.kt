@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.support.annotation.StringRes
 import android.support.v7.app.AppCompatActivity
 import com.medfest.android.medfestapp.R
+import com.medfest.android.medfestapp.R.id.*
 import com.medfest.android.medfestapp.common.EMAIL_REGEX
 import com.medfest.android.medfestapp.common.onClick
 import com.medfest.android.medfestapp.common.onTextChanged

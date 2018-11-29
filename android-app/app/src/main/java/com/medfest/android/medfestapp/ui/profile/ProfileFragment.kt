@@ -22,6 +22,7 @@
 
 package com.medfest.android.medfestapp.ui.profile
 
+import android.app.Fragment
 import android.content.Intent
 import android.os.Bundle
 import android.support.v4.app.Fragment
@@ -60,8 +61,8 @@ class ProfileFragment : Fragment(), ProfileView {
     userEmail.text = getString(R.string.email_text, email)
   }
 
-  override fun showNumberOfJokes(jokesCount: Int) {
-    numberOfJokes.text = getString(R.string.number_of_jokes_text, jokesCount)
+  override fun showNumberOfReceitas(receitasCount: Int) {
+    numberOfReceitas.text = getString(R.string.number_of_receitas_text, receitasCount)
   }
 
   override fun openWelcome() {

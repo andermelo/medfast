@@ -26,7 +26,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.UserProfileChangeRequest
 import javax.inject.Inject
 
-class FirebaseAuthenticationManager @Inject constructor() : FirebaseAuthenticationInterface {
+class FirebaseAuthenticationManager @Inject constructor(private val authentication: FirebaseAuth) : FirebaseAuthenticationInterface {
 
   override fun login(email: String, password: String, onResult: (Boolean) -> Unit) {
     authentication.signInWithEmailAndPassword(email, password).addOnCompleteListener {

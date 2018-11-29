@@ -20,7 +20,7 @@
  * THE SOFTWARE.
  */
 
-package com.medfest.android.medfestapp.ui.jokes.all
+package com.medfest.android.medfestapp.ui.receitas.all
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
@@ -29,18 +29,17 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.medfest.android.medfestapp.R
-import com.medfest.android.medfestapp.allJokesPresenter
-import com.medfest.android.medfestapp.model.Joke
-import com.medfest.android.medfestapp.ui.jokes.all.list.JokeAdapter
-import kotlinx.android.synthetic.main.fragment_jokes.*
+import com.medfest.android.medfestapp.allReceitasPresenter
+import com.medfest.android.medfestapp.model.Receita
+import com.medfest.android.medfestapp.ui.receitas.all.list.ReceitaAdapter
 
-class AllJokesFragment : Fragment(), AllJokesView {
+class AllReceitasFragment : Fragment(), AllReceitasView {
 
-  private val presenter by lazy { allJokesPresenter() }
-  private val adapter by lazy { JokeAdapter(presenter::onFavoriteButtonTapped) }
+  private val presenter by lazy { allReceitasPresenter() }
+  private val adapter by lazy { ReceitaAdapter(presenter::onFavoriteButtonTapped) }
 
   override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-    return inflater.inflate(R.layout.fragment_jokes, container, false)
+    return inflater.inflate(R.layout.fragment_receitas, container, false)
   }
 
   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -51,15 +50,15 @@ class AllJokesFragment : Fragment(), AllJokesView {
     presenter.viewReady()
   }
 
-  override fun addJoke(joke: Joke) {
-    adapter.addJoke(joke)
+  override fun addReceita(receita: Receita) {
+    adapter.addReceita(receita)
     noItems.visibility = if (adapter.itemCount!=0) View.INVISIBLE else View.VISIBLE
   }
 
   private fun initUi() {
-    jokes.layoutManager = LinearLayoutManager(activity)
-    jokes.setHasFixedSize(true)
-    jokes.adapter = adapter
+    receita.layoutManager = LinearLayoutManager(activity)
+    receita.setHasFixedSize(true)
+    receita.adapter = adapter
   }
 
   override fun showNoDataDescription() {
@@ -70,5 +69,5 @@ class AllJokesFragment : Fragment(), AllJokesView {
     noItems.visibility = View.GONE
   }
 
-  override fun setFavoriteJokesIds(favoriteJokesIds: List<String>) = adapter.setFavoriteJokesIds(favoriteJokesIds)
+  override fun setFavoriteReceitasIds(favoriteReceitasIds: List<String>) = adapter.setFavoriteReceitasIds(favoriteReceitasIds)
 }

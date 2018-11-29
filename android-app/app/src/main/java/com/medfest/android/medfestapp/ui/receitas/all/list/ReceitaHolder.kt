@@ -20,14 +20,23 @@
  * THE SOFTWARE.
  */
 
-package com.medfest.android.medfestapp.presentation
+package com.medfest.android.medfestapp.ui.receitas.all.list
 
-import com.medfest.android.medfestapp.model.Joke
-import com.medfest.android.medfestapp.ui.jokes.favorite.FavoriteView
+import android.support.v7.widget.RecyclerView
+import android.view.View
+import com.medfest.android.medfestapp.model.Receita
 
-interface FavoriteJokesPresenter : BasePresenter<FavoriteView> {
+class ReceitaHolder(
+    itemView: View,
+    private inline val onFavoriteClickHandler: (Receita) -> Unit
+) : RecyclerView.ViewHolder(itemView) {
 
-  fun getFavoriteJokes()
+  fun displayData(receita: Receita) = with(itemView) {
+    favoriteButton.onClick { onFavoriteClickHandler(receita) }
 
-  fun onFavoriteButtonTapped(joke: Joke)
+    receitaAuthor.text = receita.authorName
+    receitaDescription.text = receita.text
+
+    favoriteButton.setImageResource(if(receita.isFavorite) R.drawable.ic_favorite_filled else R.drawable.ic_favorite_border)
+  }
 }

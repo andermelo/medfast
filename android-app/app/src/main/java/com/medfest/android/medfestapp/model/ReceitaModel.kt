@@ -20,39 +20,22 @@
  * THE SOFTWARE.
  */
 
-package com.medfest.android.medfestapp.ui.jokes.favorite.list
+package com.medfest.android.medfestapp.model
 
-import android.support.v7.widget.RecyclerView
-import android.view.LayoutInflater
-import android.view.ViewGroup
-import com.medfest.android.medfestapp.R
-import com.medfest.android.medfestapp.model.Joke
-import com.medfest.android.medfestapp.ui.jokes.all.list.JokeHolder
+data class ReceitaResponse(val id: String = "",
+                        val authorName: String = "",
+                        val authorId: String = "",
+                        val text: String = "")
 
-class FavoriteJokeAdapter(
-    private val onFavoriteClickHandler: (Joke) -> Unit
-) : RecyclerView.Adapter<JokeHolder>() {
+fun ReceitaResponse.isValid() = id.isNotBlank()
+    && authorName.isNotBlank()
+    && authorId.isNotBlank()
+    && text.isNotBlank()
 
-  private val items = mutableListOf<Joke>()
+fun ReceitaResponse.mapToReceita() = Receita(id, authorName, authorId, text)
 
-  override fun getItemCount() = items.size
-
-  fun setData(data: List<Joke>) {
-    items.clear()
-    items.addAll(data)
-    notifyDataSetChanged()
-  }
-
-  override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): JokeHolder {
-    val view = LayoutInflater.from(parent.context).inflate(R.layout.item_joke, parent, false)
-
-    return JokeHolder(view, onFavoriteClickHandler)
-  }
-
-  override fun onBindViewHolder(holder: JokeHolder, position: Int) = holder.displayData(items[position])
-
-  fun clear() {
-    items.clear()
-    notifyDataSetChanged()
-  }
-}
+data class Receita(val id: String,
+                val authorName: String,
+                val authorId: String,
+                val text: String,
+                var isFavorite: Boolean = false)

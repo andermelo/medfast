@@ -1,25 +1,3 @@
-/*
- * Copyright (c) 2018 Razeware LLC
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- */
-
 package com.medfest.android.medfestapp.ui.main
 
 import android.content.Context
@@ -27,14 +5,11 @@ import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import com.medfest.android.medfestapp.R
-import com.medfest.android.medfestapp.common.onClick
-import com.medfest.android.medfestapp.common.onPageChange
-import com.medfest.android.medfestapp.ui.addJoke.AddJokeActivity
-import com.medfest.android.medfestapp.ui.jokes.all.AllJokesFragment
-import com.medfest.android.medfestapp.ui.jokes.favorite.FavoriteJokesFragment
+import com.medfest.android.medfestapp.ui.addReceita.AddReceitaActivity
+import com.medfest.android.medfestapp.ui.receitas.all.AllReceitasFragment
+import com.medfest.android.medfestapp.ui.receitas.favorite.FavoriteReceitasFragment
 import com.medfest.android.medfestapp.ui.main.pager.MainPagerAdapter
 import com.medfest.android.medfestapp.ui.profile.ProfileFragment
-import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -53,7 +28,7 @@ class MainActivity : AppCompatActivity() {
 
   private fun initUi() {
     val adapter = MainPagerAdapter(supportFragmentManager)
-    adapter.setPages(listOf(AllJokesFragment(), FavoriteJokesFragment(), ProfileFragment()))
+    adapter.setPages(listOf(AllReceitasFragment(), FavoriteReceitasFragment(), ProfileFragment()))
 
     mainPager.adapter = adapter
     mainPager.offscreenPageLimit = 3
@@ -68,7 +43,7 @@ class MainActivity : AppCompatActivity() {
       bottomNavigation.selectedItemId = item.itemId
     }
 
-    addJoke.onClick { startActivity(Intent(this, AddJokeActivity::class.java)) }
+    addReceita.onClick { startActivity(Intent(this, AddReceitaActivity::class.java)) }
   }
 
   private fun switchNavigationTab(position: Int) = mainPager.setCurrentItem(position, true)

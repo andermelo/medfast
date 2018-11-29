@@ -10,11 +10,11 @@
   <string name="username_error">Nome deve ter no mínimo 6 caracteres</string>
   <string name="repeat_password_error">Senha digitada é diferente</string>
   <string name="log_in_button">Login</string>
-  <string name="all_jokes_title">All jokes</string>
-  <string name="favorite_jokes_title">Favorite jokes</string>
+  <string name="all_receitas_title">Todas receitas</string>
+  <string name="favorite_receitas_title">Favorite receitas</string>
   <string name="my_profile_title">Perfil</string>
   <string name="log_out_button">Sair</string>
-  <string name="number_of_jokes_text">Number of favorite jokes: %d</string>
+  <string name="number_of_receitas_text">Número de receitas favoritas: %d</string>
   <string name="email_text">E-mail: %s</string>
   <string name="username_text">Usuário: %s</string>
   <string name="welcome_description">Aqui você pode acessar todas as receitas e buscar farmácias parceiras mais perto de você :]</string>
@@ -22,8 +22,8 @@
   <string name="error_title">Oops</string>
   <string name="error_message">Algo deu errado, tente novamente :[</string>
   <string name="general_positive_button">OK</string>
-  <string name="joke_hint">Enter your joke</string>
-  <string name="add_joke_text">Add joke</string>
-  <string name="joke_error">Each joke must have at least 10 characters</string>
+  <string name="receita_hint">Insira sua receita</string>
+  <string name="add_receita_text">Add receita</string>
+  <string name="receita_error">Erro! Precisa ter mais de 10 caracteres</string>
   <string name="email_empty_error">Erro no E-mail</string>
 </resources>
