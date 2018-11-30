@@ -4,6 +4,7 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import com.medfest.android.medfestapp.R
+import com.medfest.android.medfestapp.common.onClick
 import com.medfest.android.medfestapp.model.Receita
 
 class ReceitaAdapter(
@@ -23,6 +24,7 @@ class ReceitaAdapter(
 
   override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ReceitaHolder {
     val view = LayoutInflater.from(parent.context).inflate(R.layout.item_receita, parent, false)
+
 
     return ReceitaHolder(view, onFavoriteClickHandler)
   }
